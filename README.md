@@ -1,44 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Project Setup instructions
 
-## Available Scripts
+## Installing the project
 
 In the project directory, you can run:
 
+### `npm install`
+
+or
+
+### `yarn install`
+
+## Running the project
+Open two terminals in vscode or any of your choice code editor.
+
+And in the first terminal run the following to start the application:
+
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+And in the second terminal run the following to start the mock db:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `npm run db`
 
-### `npm test`
+Now go to  [localhost:3000](http://localhost:3000/) to see the application on the browser.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## In the Application
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+When visiting the localhost:3000 we can see the list of players in mui data-grid layout:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Adding Players 
+You can add players using the add button present in the home page.
 
-### `npm run eject`
+## Editing players and for individual view for players
+Click on the each row for going to the each players edit screen or individual screen.
+where the players all available data is prefilled for seeing and for editing.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deleting a Player
+Click on the Checkbox of the respective player you want to delete and click purge for removing the data.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Filtering based on the session name
+Click on the filters in the menu above the headers and type the to be filtered values.
+Alternatively if you hover over the session header three dots menu will appear and in that click filter and 
+enter the values to be filtered.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Follow-Up Questions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1)How long, in hours, did you spend on the test (not including learning)?
+Ans: 20.
 
-## Learn More
+2) Did you have to learn any new languages/technologies? If so, which ones and what
+resources did you use for your learning?
+Ans: Material ui react data grid and json-server. Material ui documentation and json-server documentation.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3) If you had more time, what further improvements or new features would you add?
+Ans: UI Style improvements and multi select delete functionality.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4) What did you spend the most time on? What did you find most difficult?
+Ans: Implementing mui data grid and it's new features and using json-server as a mock database.
+
+5) How did you find the test overall? If you have any suggestions on how we can improve the
+test we’d love to hear them.
+
+Ans: The test i found interesting and enjoyable experience and i learned some new stuff.
+Overall the test is very good.
