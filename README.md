@@ -46,7 +46,7 @@ enter the values to be filtered.
 
 ## Follow-Up Questions
 
-1)How long, in hours, did you spend on the test (not including learning)?
+1) How long, in hours, did you spend on the test (not including learning)?
 Ans: 20.
 
 2) Did you have to learn any new languages/technologies? If so, which ones and what
