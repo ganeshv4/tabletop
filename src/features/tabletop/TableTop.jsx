@@ -87,11 +87,11 @@ const TableTop = ()=>{
 </div>
 <div style={{display:"flex",justifyContent:"space-between"}}>
 
-<Button variant="contained" color="primary" onClick={handleDelete}>
+<Button variant="contained" color="primary" onClick={()=> {handleDelete(); window.location.reload();}}>
         Purge
       </Button>
 
-      <Button  variant="contained" color="primary" onClick={()=> navigate("/add") }>
+      <Button  variant="contained" color="primary" onClick={()=> {navigate("/add")}}>
         Add 
       </Button>
 </div>

@@ -5,4 +5,5 @@ export const store = configureStore({
   reducer: {
     tableTopReducer: tableTopReducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware({ serializableCheck: false}),
 });
